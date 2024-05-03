@@ -66,7 +66,7 @@ namespace IterationStatements
 
            for (int i = 199; i <= numbers.Count && i >= 0; i--) //start for loop here
             {
-                Console.WriteLine(i);// place numbers[i] inside of the Console.WriteLine() method
+                Console.WriteLine(numbers[i]);// place numbers[i] inside of the Console.WriteLine() method
             }
 
             //------------End of exercise
